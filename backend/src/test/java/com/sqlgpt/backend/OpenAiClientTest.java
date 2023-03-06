@@ -11,7 +11,6 @@ import cn.jianwoo.openai.chatgptapi.service.impl.ChatGptApiPost;
 import cn.jianwoo.openai.chatgptapi.constants.Model;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.util.Collections;
@@ -46,6 +45,5 @@ public class OpenAiClientTest {
                 .build();
         CompletionRes res = client.completionsChat(req);
         System.out.println(res.getChatContent());
-//        System.out.println(JSONObject.toJSONString(res));
     }
 }

@@ -20,7 +20,6 @@ public class RequestController {
 
     @PostMapping("/getmockdata")
     public R getMockData(@RequestBody Query query) throws ApiException {
-        System.out.println(query);
         return client.sqlMockGeneration(query);
     }
 }
