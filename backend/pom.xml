@@ -19,6 +19,19 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>cn.jianwoo.openai</groupId>
+            <artifactId>ChatGpt-API-SDK</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.unfbx</groupId>-->
+<!--            <artifactId>chatgpt-java</artifactId>-->
+<!--            <version>1.0.4</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
