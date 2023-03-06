@@ -1,0 +1,9 @@
+spring.application.name=backend
+
+server.port=8080
+
+gpt.sql.apiKey=YOUR_KEY_HERE
+
+gpt.sql.hostname=YOUR_PROXY_HOSTNAME
+
+gpt.sql.port=YOUR_PROXY_PORT
