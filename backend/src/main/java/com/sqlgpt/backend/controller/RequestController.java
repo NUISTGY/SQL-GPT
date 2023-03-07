@@ -18,7 +18,7 @@ public class RequestController {
     @Resource
     private GPTClient client;
 
-    @PostMapping("/getmockdata")
+        @PostMapping("/getmockdata")
     public R getMockData(@RequestBody Query query) throws ApiException {
         System.out.println(query);
         return client.sqlMockGeneration(query);
