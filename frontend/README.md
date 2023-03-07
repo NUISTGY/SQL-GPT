@@ -1,4 +1,4 @@
-# frontend
+# SQL-GPT frontend
 
 ## Project setup
 ```
